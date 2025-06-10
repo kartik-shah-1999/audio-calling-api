@@ -22,7 +22,7 @@
 <h3>API testing setup</h3>
 <ul>
 <li>Open Postman</li>
-<li>In the collections, import the Audio Calling Api collection json - <a href="https://drive.google.com/file/d/1_c7WlRNiGzm-oeNo02rLLGiR9koz-6GE/view?usp=drive_link">Collection File</a></li>
-<li>In the enviornments, import the Audio Calling Api enviornment json - <a href="https://drive.google.com/file/d/10pNFNCunXRL0dzH5yYI8Gci49_kDngJt/view?usp=drive_link">Enviornment File</a></li>
+<li>In the collections, import the Audio Calling Api collection json - <a href="https://drive.google.com/file/d/1_c7WlRNiGzm-oeNo02rLLGiR9koz-6GE/view?usp=drive_link" target="_blank">Collection File</a></li>
+<li>In the enviornments, import the Audio Calling Api enviornment json - <a href="https://drive.google.com/file/d/10pNFNCunXRL0dzH5yYI8Gci49_kDngJt/view?usp=drive_link" target="_blank">Enviornment File</a></li>
 <li>Set the enviornment in the collection to Audio Calling Api from the dropdown</li>
 </ul>
