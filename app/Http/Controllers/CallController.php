@@ -9,9 +9,11 @@ class CallController extends Controller
 {
     public function start(Request $request) {
         $request->validate(['receiver_id' => 'required|exists:users,id']);
-
         $userId = $request->user()->id;
-        if (Call::where('caller_id', $userId)->where('status', '!=', 'ended')->exists()) {
+        if($request->receiver_id == $userId) { 
+            return response()->json(['invalid_call' => 'User cannot schedule a call with themselves']);
+        }
+        if (Call::where('caller_id', $userId)->whereNotIn('status', ['ended', 'rejected'])->exists()) {
             return response()->json(['message' => 'You have an active call'], 400);
         }
 

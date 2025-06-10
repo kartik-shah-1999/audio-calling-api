@@ -18,3 +18,11 @@
 <li>Run the migrations : <code>php artisan migrate</code></li>
 <li>Run your application : <code>php artisan serve</code></li>
 </ul>
+
+<h3>API testing setup</h3>
+<ul>
+<li>Open Postman</li>
+<li>In the collections, import the Audio Calling Api collection json</li>
+<li>In the enviornments, import the Audio Calling Api enviornment json</li>
+<li>Set the enviornment in the collection to Audio Calling Api from the dropdown</li>
+</ul>
